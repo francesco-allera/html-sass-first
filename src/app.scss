@@ -1,0 +1,75 @@
+$font-size: 20px;
+
+$bg-top-left: #4F345A;
+$bg-bottom-right: #4D5382;
+
+$c-font: #D3D5D7;
+$c-h1: #F5EFED;
+$c-h2: #e8ebe4;
+$c-h3: #e3dfe7;
+
+
+/* General Settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: $font-size;
+}
+#app {
+    min-height: 100%;
+    padding: 3rem 1.5rem;
+    color: $c-font;
+    background-image: radial-gradient(farthest-side at 10px 10px, $bg-top-left, $bg-bottom-right);
+
+    * {
+        margin-bottom: 1.35em;
+        line-height: 1.35em;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: underline;
+        color: $c-h1;
+    }
+
+    h2 {
+        color: $c-h2;
+        text-transform: uppercase;
+
+        &::first-letter {
+            font-size: 1.2em;
+        }
+    }
+
+    h3 {
+        color: $c-h3;
+        text-transform: uppercase;
+    }
+
+    p:last-child {
+        padding-bottom: 1em;
+        border-bottom: 1px solid;
+    }
+
+    .section- {
+        &1 {
+            text-align: end;
+        }
+        &2 {
+            text-align: start;
+        }
+        &3 {
+            text-align: center;
+
+            p:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}

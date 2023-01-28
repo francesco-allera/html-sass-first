@@ -1,0 +1,56 @@
+/* General Settings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+#app {
+  min-height: 100%;
+  padding: 3rem 1.5rem;
+  color: #D3D5D7;
+  background-image: radial-gradient(farthest-side at 10px 10px, #4F345A, #4D5382);
+}
+#app * {
+  margin-bottom: 1.35em;
+  line-height: 1.35em;
+}
+#app h1 {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #F5EFED;
+}
+#app h2 {
+  color: #e8ebe4;
+  text-transform: uppercase;
+}
+#app h2::first-letter {
+  font-size: 1.2em;
+}
+#app h3 {
+  color: #e3dfe7;
+  text-transform: uppercase;
+}
+#app p:last-child {
+  padding-bottom: 1em;
+  border-bottom: 1px solid;
+}
+#app .section-1 {
+  text-align: end;
+}
+#app .section-2 {
+  text-align: start;
+}
+#app .section-3 {
+  text-align: center;
+}
+#app .section-3 p:last-child {
+  border-bottom: none;
+}
