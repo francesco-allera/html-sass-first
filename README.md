@@ -3,9 +3,7 @@
 ## Languages used:
 
 - HTML5
-- CSS3
-- JAVASCRIPT ES6
-- VUE.JS
+- SASS
 
 ### Purpose of the exercise:
 
